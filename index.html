@@ -5,24 +5,29 @@
     <title>Welcome</title>
     <style media="screen">
     body{
-      color: red;
+      color: yellow;
     }
-      button {
+    #butt {
         background-color: lightblue;
         height: 20px;
         width: 3.5%;
       }
+div {
+  background-color: #fff9e6;
+}
     </style>
   </head>
   <body>
     <h1>Enter Password Here</h1>
     <div id="passbox">
-      <table>
+      <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+  <button type="submit" name="button" id="butt">Enter</button>
+</form>
 
-      </table>
-      <input type="text" name="user" value=""> <br>
-      <input type="text" name="pass" value="">
-      <button type="submit" name="button">Enter</button>
 
     </div>
   </body>
